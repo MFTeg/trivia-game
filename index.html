@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Trivia Game</title>
+</head>
+
+<body>
+    <div id="splashscreen">
+        <div class="splashBox">
+            <h3>Welcome to</h3>
+            <h1>Gaming Trivia</h1>
+            <hr />
+            <p>You have 60 seconds to guess 10 questions</p>
+            <br />
+            <p>May RNGeesus have mercy on your soul</p>
+            <br />
+            <p>Click to start</p>
+            <button type="button" id="start-btn" class="btn btn-primary black-background white">Praise the Sun then
+                click this</button>
+        </div>
+    </div>
+
+    <div id="answerScreen">
+        <div class="splashBox2">
+            <h2>Lets see how much mountain dew runs through your veins</h2>
+            <hr />
+            <p id="correctScreen">Correct Answers: </p>
+            <p id="wrongScreen">Wrong Answers: </p>
+        </div>
+    </div>
+
+    <div id="timesUp">
+        <div class="wrongBox">
+            <h2 class="up">Times Up!</h2>
+            <hr />
+            <p>Here's your results</p>
+            <p id="correctTimesUp">Correct Answers: </p>
+            <p id="wrongTimesUp">Wrong Answers: </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>Gaming Trivia</header>
+        <div class="row timeRemain">Time Remaining: 
+            <div id="time-remain">60</div>
+        </div>
+        <div class="questions">
+            <button type="button" class="btn btn-primary black-background white" id="sub-but">Submit</button>
+        </div>
+
+    </div>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
